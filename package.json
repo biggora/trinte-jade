@@ -1,0 +1,35 @@
+{
+  "optionalDependencies": {},
+  "keywords": [
+    "jade",
+    "trinte",
+    "trintejs",
+    "caminte",
+  ],
+  "engines": {"node": ">=0.6"},
+  "licenses": [],
+  "devDependencies": {"nodeunit": ">=0.5.4"},
+  "homepage": "http://www.trintejs.com/",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "author": {
+    "name": "Aleksej Gordejev",
+    "email": "aleksej@gordejev.lv",
+    "url": "https://github.com/biggora/"
+  },
+  "scripts": {"test": "nodeunit tests/test.js"},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/biggora/trinte-jade.git"
+  },
+  "directories": {
+    "lib": "lib",
+    "tests": "tests"
+  },
+  "dependencies": {
+    "trinte": ">=0.1.0",
+    "jade": ">=0.35.0",
+  },
+  "description": "Jade templates module for TrinteJS Javascript MVC Framework",
+  "name": "trinte-jade"
+}

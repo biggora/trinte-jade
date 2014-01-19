@@ -4,7 +4,7 @@
     "jade",
     "trinte",
     "trintejs",
-    "caminte",
+    "caminte"
   ],
   "engines": {"node": ">=0.6"},
   "licenses": [],
@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "trinte": ">=0.1.0",
-    "jade": ">=0.35.0",
+    "jade": "0.x",
   },
   "description": "Jade templates module for TrinteJS Javascript MVC Framework",
   "name": "trinte-jade"
